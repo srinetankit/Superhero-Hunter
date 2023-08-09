@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#favlistitem {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#outerbox {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#innerbox {
+    margin: 10px;
+}
+
+h5 {
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#innerbox img {
+    height: 300px;
+    width: 200px;
+}
+
+#logo {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#logoimage {
+    height: 60px;
+    width: 180px;
+}
+
+.nav-link {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px double black;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+#superheroInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

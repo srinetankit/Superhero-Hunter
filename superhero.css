@@ -1,0 +1,175 @@
+/* css of the main/home page(index.js) */
+/* background image styling*/
+body {
+    background-image: url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 10%;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    /* flex-grow: 1; */
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling when hovering over a card */
+.card {
+    border: 1px solid #ddd;
+    /* border: 1px solid rgb(8, 8, 8); */
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+
+}
+
+.card:hover {
+    background-color: lightblue;
+    opacity: 0.9;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+
+}
+
+/* Styling for the "Add to Favorites" button */
+.favorite-button {
+    background-color: #1428c0;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling for the "Add to Favorites" button when hovered */
+.favorite-button:hover {
+    background: linear-gradient(to left, rgb(179, 242, 7) 50%, rgb(29, 128, 161) 50%) right;
+    color: #000000;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+/* .favorite-button:hover:before {
+    content: Click to Add Fav;
+
+} */
+
+.hero-page {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.hero-page h2 {
+
+    margin-top: 0px;
+}
+
+.favorite-list {
+    margin-top: 20px;
+}
+
+/* Styling for the "Remove from Favorites" button */
+.remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#favlistitem {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#outerbox {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#innerbox {
+    margin: 10px;
+}
+
+h5 {
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#innerbox img {
+    height: 300px;
+    width: 200px;
+}
+
+#logo {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#logoimage {
+    height: 60px;
+    width: 180px;
+}
+
+
+/* Styling for navigation links */
+.nav-link {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px double black;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+/* Styling for navigation links when hovered */
+.nav-link:hover {
+    background-color: rgb(154, 205, 50);
+    color: rgb(15, 15, 15);
+}
+
+/* Styling for search results container */
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
